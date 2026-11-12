@@ -1,0 +1,18 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Generated output files
+cleaned_customers.csv
+cleaned_data.csv
+quality_report.json
+quality_report.txt
+test_output.csv
+
+# IDE settings
+.vscode/

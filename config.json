@@ -1,0 +1,24 @@
+
+{
+    "email": {
+        "require_at_symbol": true,
+        "require_dot_in_domain": true
+    },
+
+    "age": {
+        "minimum": 0,
+        "maximum": 120
+    },
+
+    "phone": {
+        "required_digits": 10,
+        "country_code": "+91",
+        "remove_characters": [" ", "-"]
+    },
+
+    "duplicates": {
+        "check_email": true,
+        "check_complete_rows": true,
+        "combination_columns": ["name", "phone"]
+    }
+}

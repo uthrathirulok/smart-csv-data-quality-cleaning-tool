@@ -1,0 +1,14 @@
+id,name,email,phone,age,city
+1,priya kumar,PRIYA@GMAIL.COM,98765 43210,25,bangalore
+2,Rahul Sharma,rahul@gmail.com,9876543210,30,Delhi
+3,Ananya,rahul@gmail.com,9876500000,22,Mumbai
+4,Arjun,,9876511111,28,Chennai
+5,Meera,meera.gmail.com,9876522222,24,Hyderabad
+6,Karan,karan@gmail.com,9876533333,150,Pune
+7,Divya,divya@gmail.com,,27,chennai
+8,  vijay reddy  ,vijay@gmail.com,+91-98765-44444,-5,Hyderabad
+9,Sneha,priya@gmail.com,9876545555,26,Bangalore
+10,John,johncompany.com,9876546666,29,Chennai
+11,Sam,sam@gmail.com,9876547777,abc,Delhi
+12,David, david@gmail.com,98765-ABCDE,32,Delhi
+13,Peter,peter@gmail.com,987654321,28,Mumbai
