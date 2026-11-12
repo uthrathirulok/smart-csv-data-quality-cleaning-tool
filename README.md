@@ -18,6 +18,24 @@ A Python-based tool that helps identify data quality issues, validate records, c
 - **Configuration Error Handling:** Handle missing configuration files and invalid JSON safely.
 - **Automated Testing:** Test project functionality using Python's built-in `unittest` module.
 
+## Screenshots
+
+### Main Menu
+
+![Main Menu](screenshots/main_menu.png)
+
+### Duplicate Email Detection
+
+![Duplicate Email Detection](screenshots/duplicate_emails.png)
+
+### Email Validation
+
+![Email Validation](screenshots/email_validation.png)
+
+### Data Quality Report
+
+![Data Quality Report](screenshots/quality_score.png)
+
 ## Project Structure
 
 ```text
@@ -124,7 +142,7 @@ Run all automated tests using:
 python -m unittest discover -s tests -v
 ```
 
-The project currently contains **18 automated tests**.
+The project currently contains **18 automated tests** (verify this by running the command above).
 
 The tests cover:
 
@@ -144,7 +162,7 @@ The tests cover:
 **Expected result:**
 
 ```text
-Ran 18 tests in 0.134s
+Ran 18 tests
 
 OK
 ```
