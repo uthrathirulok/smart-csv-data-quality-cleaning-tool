@@ -2,6 +2,12 @@
 
 A Python-based tool that helps identify data quality issues, validate records, clean phone numbers, detect duplicate emails and records, and export cleaned CSV files.
 
+## Live Demo
+
+Try the application here:
+
+[Smart CSV Data Quality & Cleaning Tool](https://smart-csv-data-quality-cleaning-tool-mtqhiml6f4fvdjesewkx4s.streamlit.app/)
+
 ## Features
 
 - **CSV Loading:** Load different CSV files, such as `customers.csv` and `employees.csv`.
