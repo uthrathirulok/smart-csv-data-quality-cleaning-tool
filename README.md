@@ -17,6 +17,10 @@ A Python-based tool that helps identify data quality issues, validate records, c
 - **Configurable Rules:** Customize validation and duplicate detection rules using `config.json`.
 - **Configuration Error Handling:** Handle missing configuration files and invalid JSON safely.
 - **Automated Testing:** Test project functionality using Python's built-in `unittest` module.
+- **Streamlit Web Dashboard:** Interactive graphical interface for data cleaning and analysis.
+- **Dashboard Navigation:** Separate pages for uploading CSV files, missing values, duplicate emails, email validation, age validation, phone cleaning, and data quality score.
+- **CSV Preview:** Preview uploaded CSV data directly in the dashboard.
+- **Download Reports:** Download generated data quality reports.
 
 ## Screenshots
 
@@ -75,8 +79,13 @@ Smart CSV Data Quality & Cleaning Tool/
 
 ## Requirements
 
-- Python 3.8 or later recommended.
-- No external Python packages required.
+- Python 3.8 or later.
+- Streamlit 1.50.0.
+
+Install the required packages:
+
+```bash
+python -m pip install -r requirements.txt
 
 ## How to Run
 
@@ -90,6 +99,14 @@ python main.py
 
 4. Select an option from the menu.
 5. Enter the CSV filename when prompted.
+
+```markdown
+### Run the Streamlit Dashboard
+
+Start the graphical dashboard using:
+
+```bash
+python -m streamlit run app.py
 
 ## Configuration
 
